@@ -4,223 +4,161 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>Literatura-Srpska radnička partija – Za prava radnika</title>
-<meta name="description" content="Srpska radnička partija je pokret radnika, nezaposlenih i ugroženih slojeva društva. Borimo se za dostojanstvo rada, socijalnu pravdu i efikasnu, ne-birokratsku državu." />
-
-<link rel="canonical" href="https://novo-ropstvo.github.io/srpska-radnicka-partija/" />
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="Srpska radnička partija – Za prava radnika">
-<meta property="og:description" content="Pokret za prava radnika, socijalnu pravdu i efikasnu državu. Pročitaj program, preuzmi materijale i priključi se.">
-<meta property="og:url" content="https://novo-ropstvo.github.io/srpska-radnicka-partija/">
-<meta property="og:image" content="https://novo-ropstvo.github.io/srpska-radnicka-partija/images/logo.png">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Srpska radnička partija – Za prava radnika">
-<meta name="twitter:description" content="Pokret za prava radnika i socijalnu pravdu.">
-<meta name="twitter:image" content="https://novo-ropstvo.github.io/srpska-radnicka-partija/images/logo.png">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Srpska radnička partija – Za prava radnika">
-<meta name="twitter:description" content="Pokret za prava radnika i socijalnu pravdu.">
-<meta name="twitter:image" content="https://TVOJ-USERNAEM.github.io/srpska-radnicka-partija/images/logo.png">
-
   <title>Literatura – Srpska radnička partija</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Literatura i knjige autora i saradnika Srpske radničke partije." />
+
+  <link rel="canonical" href="https://novo-ropstvo.github.io/srpska-radnicka-partija/literatura.html" />
   <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .books-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 32px;
+      margin-top: 2rem;
+    }
+
+    .book-card {
+      text-align: center;
+    }
+
+    .book-card img {
+      width: 100%;
+      border-radius: 6px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .book-card img:hover {
+      transform: scale(1.07);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+    }
+
+    .book-card h3 {
+      margin-top: 0.8rem;
+      font-size: 1.1rem;
+    }
+
+    .book-card h3 a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .book-card p {
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 0.4rem;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.75rem;
+      background: #1f2933;
+      border-radius: 4px;
+      opacity: 0.85;
+    }
+  </style>
 </head>
+
 <body>
-  <header>
-    <div class="container navbar">
-      <a href="index.html" class="logo">
-        <div class="logo-mark">SRP</div>
-        <span>Srpska radnička partija</span>
-      </a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Početna</a></li>
-          <li><a href="program.html">Program</a></li>
-          <li><a href="clanstvo.html">Članstvo</a></li>
-          <li><a href="galerija.html">Galerija</a></li>
-          <li><a href="statut.html">Statut i organi</a></li>
-          <li><a href="literatura.html">Literatura</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </nav>
-      <button class="burger" aria-label="Otvori meni">
-        <span></span><span></span><span></span>
-      </button>
+<header>
+  <div class="container navbar">
+    <a href="index.html" class="logo">
+      <div class="logo-mark">SRP</div>
+      <span>Srpska radnička partija</span>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="program.html">Program</a></li>
+        <li><a href="clanstvo.html">Članstvo</a></li>
+        <li><a href="galerija.html">Galerija</a></li>
+        <li><a href="statut.html">Statut i organi</a></li>
+        <li><a href="literatura.html" class="active">Literatura</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    <button class="burger" aria-label="Otvori meni">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <h1>Literatura</h1>
+      <p>Knjige, eseji i publikacije koje prate ideje i vrednosti Srpske radničke partije.</p>
     </div>
-  </header>
+  </section>
 
-  <main>
-    <section class="page-hero">
-      <div class="container">
-        <h1>Literatura</h1>
-        <p>
-          Preporučene knjige, eseji i studije koje prate ideje Srpske radničke partije – 
-          od savremenih analiza kapitalizma do klasika radničkog pokreta.
-        </p>
-      </div>
-    </section>
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Knjige autora pokreta</h2>
 
-    <section class="section">
-      <div class="container">
-        <!-- 1) Tvoje knjige -->
-        <h2 class="section-title">Knjige autora pokreta</h2>
-        <p style="margin-bottom:1.5rem;">
-          Ova sekcija je namenjena knjigama, esejima i publikacijama članova i osnivača SRP. 
-          Po potrebi možeš dopuniti naslovima, linkovima i koricama.
-        </p>
+      <div class="books-grid">
 
-        <div class="cards-grid">
-          <!-- Primer kartice – slobodno izmeni/dupliraj -->
-          <article class="card">
-            <div class="card-body">
-              <h3>„Novo ropstvo“ – roman</h3>
-              <p>
-                Roman o savremenom radu, iscrpljenosti i borbi običnog čoveka u sistemu 
-                koji jede sopstvene radnike. Priča o dostojanstvu, očaju i otporu.
-              </p>
-              <!-- ako imaš sliku korica, ubaci: <img src="images/novo-ropstvo-korice.png" ...> -->
-              <p style="font-size:0.9rem; opacity:0.9;">
-                Status: dostupno kao e-knjiga. Link za preuzimanje / kupovinu biće dodat ovde.
-              </p>
-            </div>
-          </article>
+        <!-- NOVO ROPSTVO -->
+        <article class="book-card">
+          <a href="https://marjanmitrovic.github.io/novo-ropstvo/" target="_blank" rel="noopener">
+            <img src="images/novo-ropstvo-cover.jpg" alt="Novo ropstvo – korice">
+          </a>
+          <h3>
+            <a href="https://marjanmitrovic.github.io/novo-ropstvo/" target="_blank" rel="noopener">
+              Novo ropstvo
+            </a>
+          </h3>
+          <p>
+            Roman o savremenom radu, iscrpljenosti i sistemu koji melje sopstvene radnike.
+          </p>
+        </article>
 
-          <!-- Dodaj sledeće knjige ovako: -->
-          <!--
-          <article class="card">
-            <div class="card-body">
-              <h3>Naziv tvoje druge knjige</h3>
-              <p>Kratak opis knjige...</p>
-              <p style="font-size:0.9rem; opacity:0.9;">Link / izdavač / godina</p>
-            </div>
-          </article>
-          -->
-        </div>
-      </div>
-    </section>
+        <!-- LIDICE -->
+        <article class="book-card">
+          <img src="images/lidice-cover.jpg" alt="Lidice – korice">
+          <h3>Lidice</h3>
+          <p>
+            Roman o kolektivnoj kazni, sećanju i zločinu nad običnim ljudima.
+          </p>
+          <span class="badge">uskoro</span>
+        </article>
 
-    <section class="section" style="background:#020617; color:#e5e7eb;">
-      <div class="container">
-        <!-- 2) Preporučena literatura -->
-        <h2 class="section-title">Preporučena literatura o radu, društvu i ekonomiji</h2>
-        <p style="margin-bottom:1.5rem;">
-          Ovo su primeri knjiga koje se bave radničkim pravima, socijalnom pravdom, 
-          istorijom radničkog pokreta i kritikom savremenog kapitalizma. 
-          Naslove možeš menjati, brisati ili dodavati po svom izboru.
-        </p>
+        <!-- KAPITALIZAM -->
+        <article class="book-card">
+          <img src="images/kapitalizam-cover.jpg" alt="Kapitalizam – Anatomija moći – korice">
+          <h3>Kapitalizam – Anatomija moći</h3>
+          <p>
+            Eseji i analiza mehanizama moći, eksploatacije i savremenog ekonomskog sistema.
+          </p>
+          <span class="badge">uskoro</span>
+        </article>
 
-        <div class="cards-grid">
-          <article class="card" style="background:#0b1120;">
-            <div class="card-body">
-              <h3>Rad, kapital i nejednakost</h3>
-              <p>
-                Knjige i studije koje objašnjavaju kako nastaju klasne razlike, 
-                kako funkcionišu tržišta rada i zašto standard radnika stagnira 
-                uprkos rastu produktivnosti.
-              </p>
-              <ul style="font-size:0.9rem; margin-top:0.5rem;">
-                <li>(ovde ubaciti konkretne autore i naslove)</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="card" style="background:#0b1120;">
-            <div class="card-body">
-              <h3>Istorija radničkog pokreta</h3>
-              <p>
-                Literatura koja opisuje borbu radnika kroz 19. i 20. vek – sindikate,
-                štrajkove, osvajanje prava na radno vreme, odmor i sindikalno organizovanje.
-              </p>
-              <ul style="font-size:0.9rem; margin-top:0.5rem;">
-                <li>(ovde dodati primere knjiga)</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="card" style="background:#0b1120;">
-            <div class="card-body">
-              <h3>Socijalna država i javne politike</h3>
-              <p>
-                Knjige koje se bave modelima javnog zdravstva, obrazovanja, socijalne zaštite 
-                i stanovanja – kako izgleda država koja radi za građane, a ne obrnuto.
-              </p>
-              <ul style="font-size:0.9rem; margin-top:0.5rem;">
-                <li>(ovde dodati naslove koji ti odgovaraju)</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="card" style="background:#0b1120;">
-            <div class="card-body">
-              <h3>Ekonomija odozdo</h3>
-              <p>
-                Dela koja promovišu zadruge, radničko vlasništvo, lokalne ekonomije, 
-                solidarne mreže i alternative klasičnom neoliberalnom modelu.
-              </p>
-              <ul style="font-size:0.9rem; margin-top:0.5rem;">
-                <li>(ovde dodati naslove)</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <!-- 3) Mesto za linkove / PDF-ove -->
-        <h2 class="section-title">PDF izdanja i preuzimanja</h2>
-        <p style="margin-bottom:1rem;">
-          Ova sekcija je predviđena za direktno preuzimanje materijala – 
-          brošura, programa, radnih verzija knjiga, izveštaja i analitičkih dokumenata.
-        </p>
-
-        <ul style="list-style:disc; padding-left:1.2rem; line-height:1.6;">
-          <li>
-            <strong>Program Srpske radničke partije (PDF)</strong> – 
-            <span style="opacity:0.8;">link će biti dodat nakon usvajanja programa.</span>
-          </li>
-          <li>
-            <strong>Osnovni dokumenti osnivačkog udruženja</strong> – 
-            <span style="opacity:0.8;">statut, izveštaji, javne izjave (uskoro).</span>
-          </li>
-          <!-- Dodaj konkretne linkove ovako:
-          <li><a href="docs/ime-dokumenta.pdf" target="_blank">Naziv dokumenta (PDF)</a></li>
-          -->
-        </ul>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-inner">
-      <div>© Srpska radnička partija.</div>
-      <div class="footer-links">
-        <a href="program.html">Program</a>
-        <a href="kontakt.html">Kontakt</a>
       </div>
     </div>
-  </footer>
+  </section>
+</main>
 
-   <script>
-    // Mobilni burger meni
-    document.addEventListener("DOMContentLoaded", function () {
-      var burger = document.querySelector(".burger");
-      var navLinks = document.querySelector(".nav-links");
+<footer>
+  <div class="container footer-inner">
+    <div>© Srpska radnička partija</div>
+    <div class="footer-links">
+      <a href="program.html">Program</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+  </div>
+</footer>
 
-      if (!burger || !navLinks) return;
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav-links");
+  if (burger && nav) {
+    burger.addEventListener("click", () => nav.classList.toggle("open"));
+  }
+});
+</script>
 
-      burger.addEventListener("click", function () {
-        navLinks.classList.toggle("open");
-      });
-    });
-  </script>
 </body>
 </html>
 
-</body>
-</html>
